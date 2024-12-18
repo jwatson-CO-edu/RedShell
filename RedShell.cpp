@@ -129,7 +129,7 @@ int main( int argc, char *argv[] ){
     size_t /*---*/ N_args = 0;
     pid_t /*----*/ myID   = getpid();
 
-    cout << "Started MicroShell as PID " << myID << ", part of " << getpgid( myID ) << " process group" << endl;
+    cout << "Started RedShell as PID " << myID << ", part of " << getpgid( myID ) << " process group" << endl;
 
     // FIXME, START HERE: REPL
 
